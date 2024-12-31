@@ -25,7 +25,7 @@ router.get('/', async (req, res) => {
             saveCreds
         } = await useMultiFileAuthState('./temp/'+id)
      try {
-            let Pair_Code_By_Venocyber_Tech = Venocyber_Tech({
+            let Pair_Code_By_Neon_Abyss = Neon_Abyss({
                 auth: {
                     creds: state.creds,
                     keys: makeCacheableSignalKeyStore(state.keys, pino({level: "fatal"}).child({level: "fatal"})),
